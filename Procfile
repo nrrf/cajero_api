@@ -1,1 +1,1 @@
-fastapi==0.62.0 uvicorn==0.12.3 pydantic==1.7.3
+web: uvicorn main:api --host=0.0.0.0 --port=${PORT:-5000}
